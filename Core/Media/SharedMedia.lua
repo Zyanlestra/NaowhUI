@@ -6,8 +6,8 @@ local MediaType_STATUSBAR = LSM.MediaType.STATUSBAR
 
 local MediaType_SOUND = LSM.MediaType.SOUND
 
-LSM:Register(MediaType_FONT, "Naowh",					[[Interface\Addons\NaowhUI\Core\Media\Fonts\Naowh.ttf]],							koKR + ruRU + zhCN + zhTW + western)
-LSM:Register(MediaType_FONT, "GothamNarrowUltra",		[[Interface\Addons\NaowhUI\Core\Media\Fonts\GothamNarrowUltra.ttf]],				koKR + ruRU + zhCN + zhTW + western)
+LSM:Register(MediaType_FONT, "Naowh",					[[Interface\Addons\NaowhUI\Core\Media\Fonts\Naowh.ttf]],							ruRU + western)
+LSM:Register(MediaType_FONT, "GothamNarrowUltra",		[[Interface\Addons\NaowhUI\Core\Media\Fonts\GothamNarrowUltra.ttf]],				ruRU + western)
 
 LSM:Register(MediaType_SOUND, "|cff0091ed1 -Naowh|r", [[Interface\Addons\NaowhUI\Core\Media\Sounds\1 -Naowh.ogg]])
 LSM:Register(MediaType_SOUND, "|cff0091ed2 -Naowh|r", [[Interface\Addons\NaowhUI\Core\Media\Sounds\2 -Naowh.ogg]])
