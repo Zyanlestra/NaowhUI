@@ -122,6 +122,7 @@ local function ImportPlater(addon)
 	if not SE:IsHooked(Plater, HookableMethod) then
 		SE:RawHook(Plater, HookableMethod, function()
 			C_Timer.After (.5, function()
+				Plater.ImportScriptsFromLibrary()
 				Plater.ApplyPatches()
 				Plater.CompileAllScripts("script")
 				Plater.CompileAllScripts("hook")
