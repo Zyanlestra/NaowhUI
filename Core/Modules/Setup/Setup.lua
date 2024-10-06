@@ -165,6 +165,7 @@ function SetupTable.Details(import, addon)
 	local Details = Details
 
 	if import then
+		Details:EraseProfile(Profile)
 		Details:ImportProfile(NUI.DetailsData, Profile, false, false, true)
 
 		for i, v in Details:ListInstances() do
